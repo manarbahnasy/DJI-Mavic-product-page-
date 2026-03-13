@@ -1,0 +1,514 @@
+/* General tags */
+*{
+    font-family: "Exo", sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+h1{
+    font-family: "Exo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Exo", sans-serif;
+    font-style: normal;
+    line-height: 33px;
+}
+
+/* General classes */
+.clr-fix{
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.price{
+    align-content: center;
+}
+
+
+/* sections */
+
+/* Nav Bar */
+
+#navBar p{
+    display: inline-block;
+    font-size: 24px;
+    font-family: "Exo", sans-serif;
+    font-weight: 700;
+}
+
+#navBar .logo{
+    width: 30px;
+    background-color: #8d51ff;
+    padding: 10px;
+    border-radius: 15px;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+nav{
+     display: flex;
+     justify-content: space-between; /* Align items to the right */
+     padding: 25px 30px;
+     align-content: flex-start;
+     background-color: #f5f3ff;
+     align-items:center;
+   }
+
+
+nav ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+    
+   }
+
+
+nav ul li {
+     margin-left: 25px;
+}
+
+
+nav ul li a {
+     text-decoration: none;
+     color: black; /* black text */
+     font-size: 18px;
+     font-weight: bold;
+     transition: color 0.3s ease;
+}
+
+
+nav ul li a:hover {
+     color: #8d51ff; /* hover */
+}
+
+
+nav div .logo{
+       width: 150px;
+       padding-top: 0;
+       margin: 0;
+}
+
+/* Hero section */
+
+#hero{
+    margin-top: 15%;
+}
+
+.imgWrapper img{
+    width: 45%;
+    float: left;
+    border: 3px black solid;
+    margin-right: 2%;
+}
+
+.imgWrapper .off{
+    position: absolute;
+    margin: 2% 0 10% 2%;
+    padding-inline: 25px;
+    padding-block: 15px;
+    border-radius: 30px;
+    background-color: #8d51ff;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.contentWrapper{
+    width: 40%;
+    float: left;
+    margin-left: 60px;
+}
+
+.contentWrapper .btn{
+    background-color: #8d51ff;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding-inline: 5%;
+    padding-block: 2%;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.price .current-price{
+    font-family: "Exo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 40px;
+    margin-right: 15px;
+}
+
+.price .original-price{
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 24px;
+    text-decoration: line-through;
+    margin-right: 15px;
+
+}
+
+.price .discount{
+    display: inline-block;
+    background-color: #ffe1e2;
+    color: red;
+    border-radius: 30px;
+    padding-inline: 25px;
+    padding-block: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.contentWrapper .buttons .add-to-cart{
+    display: block;
+    width: 90%;
+    background-color: #8d51ff;
+    padding-inline: 25px;
+    padding-block: 20px;
+    margin: 15px;
+    border-radius: 30px;
+    border: 2px solid #8d51ff;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.contentWrapper .buttons .white{
+    display: block;
+    width: 90%;
+    background-color: white;
+    padding-inline: 25px;
+    padding-block: 20px;
+    margin: 18px;
+    border-radius: 30px; 
+    border: 2px solid;
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* How we compare */
+#compare{
+    background-color: #f7f6ff;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.section-wrapper{
+    text-align: center;
+}
+
+.compare-title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.section-wrapper .heading::after{
+      content: "Compare";
+      color: #8e51ff; 
+    }
+
+.compare-desc{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+#compareTable{
+    border: 1px gray solid;
+    margin: auto;    
+}
+
+.tableDesc{
+    font-size: 14px;
+    font-weight: 700;
+    color: oklch(0.551 0.027 264.364);
+    line-height: 20px;
+}
+
+#compareTable td, th{
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px gray solid;
+}
+
+#compareTable .purpleBg{
+    background-color: #ece9ff;
+    margin-bottom: 5%;
+}
+
+#tableHead{
+    align-content: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.redColor{
+    color: red;
+}
+
+  
+
+    .award-box {
+      background-color: #f9f9f9;
+      border: 2px solid #ddd;
+      border-radius: 20px;
+      padding: 20px;
+      width: 350px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin: 35px auto 35px auto;
+    }
+
+    .award-title {
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+      font-weight: bold;
+      color: #2e8b57;
+      margin-bottom: 8px;
+    }
+
+    .award-title img {
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
+    }
+
+    .award-subtitle {
+      font-size: 14px;
+      color: #555;
+    }
+
+        /* reviews */
+
+    .heading {
+      font-size: 36px;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 50px;
+      position: relative;
+      display: inline-block;
+    }
+
+    .review-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    }
+    
+    .review-wrapper{
+        text-align: center;
+    }
+
+.review-wrapper .heading::after {
+      content: "Customers Say";
+      color: #8e51ff; 
+    }
+
+
+    /* reviews */
+
+      .reviews-container {
+      display: flex;
+      gap: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    /* Left summary */
+    .summary {
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .summary h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .stars {
+      color: gold;
+      font-size: 20px;
+    }
+
+    .rating-breakdown {
+      margin-top: 15px;
+    }
+
+    .rating-breakdown div {
+      margin: 5px 0;
+    }
+
+    .summary p {
+      margin: 8px 0;
+      color: #555;
+    }
+
+    /* Right reviews */
+    .reviews-container {
+      display: flex;
+      gap: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    /* Left summary */
+    .summary {
+      flex: 1;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+      position: sticky;
+    }
+
+    .summary h2 {
+      font-size: 60px;
+      margin-bottom: 10px;
+      font-weight: 700;
+      line-height: 60px;
+    }
+
+     .summary p {
+      font-size: 16;
+      font-weight: 500;
+    }
+
+     .stars {
+      color: gold;
+      font-size: 20px;
+    }
+
+    .stars-left {
+      color: gold;
+      font-size: 40px;
+    }
+
+    .rating-breakdown {
+      margin-top: 15px;
+      text-align: left;
+    }
+
+    .rating-breakdown div {
+      margin: 5px 0;
+    }
+
+    .ratingContent ,h3{
+        width:50%;
+        font-size: 28px;
+        font-weight: 700;
+        float: left;
+    }
+
+    .ratingContent , .left-rating{
+        width:50%;
+        font-weight: 700;
+        text-align: center;
+        }
+
+    .summary p {
+      margin: 8px 0;
+      color: #555;
+    }
+
+    /* Right reviews */
+    .reviews {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .review {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      display: flex;
+      gap: 15px;
+      align-items: flex-start;
+    }
+
+    .review img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .review-content {
+      flex: 1;
+    }
+
+    .review h3 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .review .role {
+      font-size: 14px;
+      color: #777;
+    }
+
+    .review .stars {
+      margin: 8px 0;
+    }
+
+    .review p {
+      line-height: 1.5;
+      color: #333;
+    }
+
+    #reviewBtn{
+        align-items: center;
+        margin: auto;
+        
+    }
+
+   #reviewBtn, .Btn{
+    display: inline-block;
+    width: 55%;
+    background-color: #8d51ff;
+    padding-block: 10px;
+    border-radius: 50px;
+    border: 2px solid #8d51ff;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    }
+
+    /* complete setup */
+
+    #setup{
+        background-color: #f7f6ff;
+
+    }
+
