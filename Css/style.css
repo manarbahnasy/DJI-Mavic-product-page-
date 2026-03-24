@@ -573,3 +573,17 @@ nav div .logo{
     .product-card button:hover {
       background-color: #8d51ff;
     }
+
+    button .add-to-wishlist , .purpleColor{
+    display: block;
+    background-color: transparent;
+    padding-inline: 35px;
+    padding-block: 20px;
+    margin: 15px;
+    border-radius: 30px;
+    border: 2px solid #8023ff;
+    color: #8023ff;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
