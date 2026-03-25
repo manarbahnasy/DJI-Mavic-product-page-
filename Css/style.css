@@ -417,7 +417,7 @@ nav div .logo{
     }
 
     .ratingContent ,h3{
-        width:50%;
+        width:100%;
         font-size: 28px;
         font-weight: 700;
         float: left;
@@ -440,6 +440,7 @@ nav div .logo{
       display: flex;
       flex-direction: column;
       gap: 20px;
+      margin-bottom: 3%;
     }
 
     .review {
@@ -485,6 +486,7 @@ nav div .logo{
     #reviewBtn{
         align-items: center;
         margin: auto;
+  
         
     }
 
@@ -548,7 +550,8 @@ nav div .logo{
     }
 
     .product-card h3 {
-      font-size: 20px;
+
+      font-size: 25px;
       margin-bottom: 10px;
       color: #333;
     }
@@ -574,16 +577,86 @@ nav div .logo{
       background-color: #8d51ff;
     }
 
-    button .add-to-wishlist , .purpleColor{
-    display: block;
+    .accessories-btn{
+      display: flex;
+      justify-content: center;
+    }
+
+    .accessories-btn .add-to-wishlist , .purpleColor{
     background-color: transparent;
     padding-inline: 35px;
     padding-block: 20px;
-    margin: 15px;
     border-radius: 30px;
     border: 2px solid #8023ff;
     color: #8023ff;
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
+    cursor: pointer;
+}
+
+/* footer */
+
+#foot-container{
+  width: 85%;
+  margin: auto;
+  padding-top: 5%;
+
+}
+
+footer{
+  background-color: #111828;
+  color: white;
+}
+
+footer .foot-wrap{
+  width: 22%;
+  float: left;
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+footer .footer-logo{
+  float: left;
+  border-radius: 10%;
+  width: 25%;
+  margin-right: 3%;
+  
+}
+
+footer h3{
+width: fit-content;
+color: white;
+margin: auto;
+font-size: 25px;
+font-weight: 600;
+}
+
+footer .FDJI{
+  margin-top: 7%;
+  font-size: 35px;
+}
+
+footer .foot-wrap p{
+  font-size: 16px;
+  font-weight: 400;
+  width: 70%;
+}
+
+
+footer .foot-wrap ul{
+  list-style: none;
+  padding: 0;
+  line-height: 28px;
+}
+
+footer .foot-wrap ul li{
+  color: rgba(255, 255, 255, 0.739);
+}
+
+footer .paymentmeth img{
+  width: 5%;
+  padding-inline: 1%;
+  padding-block: 35px;
+  float: right;
 }
